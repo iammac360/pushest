@@ -27,7 +27,7 @@ defmodule Pushest.MixProject do
 
   defp deps do
     [
-      {:poison, "~> 4.0"},
+      {:poison, "~> 3.0"},
       {:gun, "~> 1.3"},
       {:credo, "~> 0.9.0-rc1", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
